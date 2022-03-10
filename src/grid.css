@@ -1,0 +1,38 @@
+.main-grid{
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+.grid-item{
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#main-section{
+    width:1440px;
+    height:464px;
+    margin: auto;
+    
+}
+
+
+/*footer*/
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    height: 369px;
+    width: 1440px;
+
+    margin: 42px auto 0;
+}
+
+.footer-grid-item{
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    text-align: left;
+}

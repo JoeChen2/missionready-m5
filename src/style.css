@@ -1,0 +1,136 @@
+.nav-container{
+    width: 1440px;
+    margin: auto;
+}
+#header {
+    background-color: white;
+}
+
+
+.turners-logo{
+    width: 394px;
+    height: 118px;
+
+    float: left;
+
+    padding-left: 109px;
+}
+
+.nav-icon{
+    width: 90px;
+    height: 90px;
+
+    float:right;
+
+    padding: 0 49px;
+}
+
+
+/*section 2 car background*/
+
+#main-section{
+    background-image: url("./images/carBackground.png");
+    background-size: cover;
+
+    text-align: left;
+}
+
+#main-section button{
+    height: 96px;
+    width: 440px;
+
+    border : none;
+    border-radius: 25px;
+
+    font-weight: 700;
+
+    margin: 63px 0px 0px 172px;
+
+}
+
+.buy-button{
+    
+
+    background-color: #2Ad93C;
+    
+
+    font-size: 64px;
+    
+    color: white;
+
+    box-shadow: -7px 7px 4px 0px white;
+}
+
+.buy-button:active{
+    box-shadow: none;
+}
+
+.quote-button{
+    
+
+    background: #2085D5;
+
+    
+
+    font-size: 36px;
+    color: white;
+
+    box-shadow: -7px 7px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.quote-button:active{
+    box-shadow: none;
+}
+
+
+/*footer section*/
+
+.footer-grid-image{
+    float: left;
+    border:none;
+    margin-left: 100px;
+    padding-right: 5px;
+}
+
+.footer-text{
+    font-size: 36px;
+    color: #106db7;
+    font-weight: 400;
+}
+
+
+.botButton{
+    position:fixed;
+
+    width: 288px;
+    height: 82px;
+
+    bottom: 23px;
+    right: 34px;
+
+    background: #FFFFFF;
+    border: 3px solid #B71234;
+    box-sizing: border-box;
+    box-shadow: -7px 7px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botButton-text{
+    float: left;
+
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 44px;
+
+    color: #2085D5;
+
+    margin:17px 0 17px 31px;
+}
+
+.botButton-image{
+    float: right;
+    margin-right: 22;
+}
+
+.botButton:active{
+    box-shadow: none;
+}
